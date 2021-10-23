@@ -3,7 +3,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 
-public class TwoSumTest {
+class TwoSumTest {
 
 
         @Test
@@ -15,7 +15,7 @@ public class TwoSumTest {
             int[] answer = {0,1};
 
             // when
-            int[] answerArray = TwoSum.twoSum(arrayOne, target);
+            int[] answerArray = TwoSum1.twoSum(arrayOne, target);
 
             // then
             assertArrayEquals(answer, answerArray);
@@ -33,7 +33,7 @@ public class TwoSumTest {
             int[] answer = {1,2};
 
             // when
-            int[] answerArray = TwoSum.twoSum(arrayOne, target);
+            int[] answerArray = TwoSum1.twoSum(arrayOne, target);
 
             // then
             assertArrayEquals(answer, answerArray);

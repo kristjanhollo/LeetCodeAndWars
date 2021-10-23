@@ -2,7 +2,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class TwoSum {
+public class TwoSum1 {
+
+
+    private TwoSum1() {
+    }
 
     /**
      *
@@ -15,7 +19,7 @@ public class TwoSum {
 
     public static int[] twoSum(int[] nums, int target) {
         int[] arr = new int[2];
-        int numberToFind = 0;
+        int numberToFind;
         List<Integer> arrayList = new ArrayList<>();
         for(int i : nums) {
             arrayList.add(i);
