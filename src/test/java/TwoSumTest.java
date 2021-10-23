@@ -25,7 +25,7 @@ public class TwoSumTest {
 
         @Test
 
-        void testTwoSumAssertFalse() {
+        void testTwoSumTwo() {
 
             //given
             int[] arrayOne = {3,2,4};
